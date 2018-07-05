@@ -42,11 +42,9 @@ people:
   - title: 'Advisors'
   - row:
     - name: 'Megan Kennedy'
-      position: 'Suicide Intervention Coordinator, UW'
-    - name: 'Monikha Rao'
-      position: ''
-    size: '6'
-    height: '175'
+      position: 'Megan Kennedy is the Manager of Strategic Initiatives for Student Wellness at the University of Washington. In her role, she aims to help the campus increase its capacity to support student mental health and reduce suicide. Megan Kennedy is a Licensed Mental Health Counselor (Seattle, Washington, USA).'
+      image: 'megan.jpg'
+    size: '12'
   - title: 'Volunteers'
   - row:
     - name: 'Sacheth Sathyanarayanan'
