@@ -4,12 +4,23 @@ description: Website of Mental Health for Every Adolescent
 baseurl: ""
 url: "https://projectmhea.org"
 
-# Build settings
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "defualt"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 markdown: kramdown
-# theme: minima
 plugins:
   - jekyll-feed
 
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock

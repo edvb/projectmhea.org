@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<header class="masthead bg-primary text-white" style="padding-top: 200px; height: 600px">
+  <div class="container">
+    <h1 class="display-3 text-white">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h1 class="display-5 text-white">{{ page.subtitle }}</h1>
+    {% endif %}
+    {% if page.author %}
+      <h2 class="display-5 text-white">{{ page.author }}</h2>
+    {% endif %}
+    {% if page.editor %}
+      <h2 style="font-size: 22px" class="text-white">Edited by {{ page.editor }}</h2>
+    {% endif %}
+  </div>
+</header>
+
+<section id="intro" style="margin-top: -100px">
+  <div class="container">
+    <div class="row">
+      <p style="font-size: 26px" class="col-md-10 col-sm-12 text-left">
+        {{ content }}
+        <!-- <a id="back-link" href={% if page.category == "your story" %}"/your-story.html"{% else %}"/learn-more.html"{% endif %}> -->
+        <!--   <i class="icon-arrow-left">Back To Articles</i> -->
+        <!-- </a> -->
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<style>
+</style>
