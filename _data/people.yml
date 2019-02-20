@@ -1,14 +1,26 @@
+quotes:
+  - name: "Kartikeye Khanna"
+    quote: "Kartikeye Khanna Ever since I have come across the organisation, MHEA, it has only helped and educated me. Considering how deep-rooted the issue of mental health is, in terms of the stigma attached to it, the reluctance to seek help, or people's perception towards those with mental illness, we still have a long way to go. With MHEA,  I continue to strive to make the community around me as educated about mental health as they can be."
+    position: 'Volunteer'
+    image: 'kartikeye.png'
+  - name: 'Sairandri Sathyanarayanan'
+    quote: "During my schooling in India, I've seen friends grappling with depression and anxiety unable to seek help because of the stigma associated with mental health issues. My time at UW helped me understand that the first step to providing effective mental healthcare was to create a conducive atmosphere that facilitates conversations about this very important issue. Through the MHEA workshops, I hope to help do away with misinformed perceptions regarding mental illnesses, and emphasize the need to seek treatment just as one would with physical illness."
+    position: 'Founder'
+    image: 'sairandri.jpg'
+  - name: "Srihari Balaji"
+    quote: "MHEA's unique idea of conducting workshops that specifically focused on mental health issues really piqued my interest. I had personally experienced depression in grade 11; I felt that MHEA is the right platform to not only salvage myself from my situation, but also educate others about mental health issues."
+    position: 'Volunteer'
+    image: 'srihari.jpg'
 people:
   - title: 'Core Team'
   - name: 'Sairandri Sathyanarayanan'
     position: 'Founder'
     desc: 'Sairandri is a sophomore at the University of Washington, Seattle, planning to study neurobiology and psychology. She conducts research on the neural mechanisms behind memory and learning. Additionally, she is working towards creating biosensors that can detect contaminants in water through an undergraduate research group. She is also a Peer Health Educator and conducts workshops, panels, and other programs to promote mental health awareness, healthy sexuality, and wellness on campus.'
-    quote: 'During my schooling in India, I’ve seen friends grappling with depression and anxiety unable to seek help because of the stigma associated with mental health issues. My time at UW helped me understand that the first step to providing effective mental healthcare was to create a conducive atmosphere that facilitates conversations about this very important issue. Through the MHEA workshops, I hope to help do away with misinformed perceptions regarding mental illnesses, and emphasize the need to seek treatment just as one would with physical illness.'
     image: 'sairandri.jpg'
     size: '6'
   - name: 'Brooke Thimmig'
     position: 'Outreach and Media Director'
-    desc: "Brooke is a sophomore at the University of Washington where she is a Pre Med student majoring in Dance. On campus, she works as a Peer Health Educator to organize events, facilitate workshops, and run campaigns revolving around student health issues such as mental health, sexuality, and relationship violence. She is a member of UW’s Dance Student Association and has preformed in the Faculty Dance Concert. Brooke is also a certified nurse aid in the state of Texas and a nationally registered emergency medical technician as well as a pharmacy technician."
+    desc: "Brooke is a sophomore at the University of Washington where she is a Pre Med student majoring in Dance. On campus, she works as a Peer Health Educator to organize events, facilitate workshops, and run campaigns revolving around student health issues such as mental health, sexuality, and relationship violence. She is a member of UW's Dance Student Association and has preformed in the Faculty Dance Concert. Brooke is also a certified nurse aid in the state of Texas and a nationally registered emergency medical technician as well as a pharmacy technician."
     image: 'brooke.jpg'
     size: '6'
   - name: 'Aniruddh Saxena'

@@ -31,14 +31,13 @@ layout: default
 
 <section id="motivation">
     <div class="container">
-        <h1 class="display-3 text-primary text-center">Our Motivation</h1>
+        <h1 class="display-3 pb-5 text-primary text-center">Our Motivation</h1>
         <div class="row">
-            {% for person in site.data.people.people %}
-                {% if person.quote %}
+            {% for person in site.data.people.quotes %}
                 <div class="col">
                     <div class="box-testimony">
-                        <blockquote >
-                        <p>{{ person.quote }}</p>
+                        <blockquote>
+                            <p>{{ person.quote }}</p>
                         </blockquote>
                         <div class="author">
                         <figure><img src="assets/img/people/{{ person.image }}" alt="Person"></figure>
@@ -46,7 +45,6 @@ layout: default
                         </div>
                     </div>
                 </div>
-                {% endif %}
             {% endfor %}
         </div>
     </div>
