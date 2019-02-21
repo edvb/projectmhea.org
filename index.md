@@ -79,7 +79,7 @@ layout: default
         {% for post in site.posts %}
         {% if post.category == "learn more" %}
             <a href="{{ post.url }}">
-                <button type="button" class="btn btn-lg btn-primary btn-block">
+                <button type="button" class="btn btn-lg btn-primary btn-block shadow">
                     {{ post.title }}
                 </button>
             </a>
@@ -92,7 +92,7 @@ layout: default
         {% for post in site.posts %}
         {% if post.category == "your story" %}
             <a href="{{ post.url }}">
-                <button type="button" class="btn btn-lg btn-primary btn-block">
+                <button type="button" class="btn btn-lg btn-primary btn-block shadow">
                     {{ post.title }}
                 </button>
             </a>
