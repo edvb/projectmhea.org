@@ -77,37 +77,36 @@ layout: default
     <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
         <h1 class="display-6 p-4 mb-5">Learn More</h1>
         {% for post in site.posts %}
-        {% if post.category == "learn more" %}
-            <a href="{{ post.url }}">
-                <button type="button" class="btn btn-lg btn-primary btn-block shadow">
-                    {{ post.title }}
-                </button>
-            </a>
-            <br/>
-        {% endif %}
+          {% if post.category == "learn more" %}
+          <a href="{{ post.url }}">
+            <button type="button" class="btn btn-lg btn-primary btn-block shadow">
+              {{ post.title }}
+            </button>
+          </a>
+          <br/>
+          {% endif %}
         {% endfor %}
-    </div>
-    <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
+      </div>
+      <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
         <h1 class="display-6 p-4 mb-5">Personal Stories</h1>
         {% for post in site.posts %}
-        {% if post.category == "your story" %}
-            <a href="{{ post.url }}">
-                <button type="button" class="btn btn-lg btn-primary btn-block shadow">
-                    {{ post.title }}
-                </button>
-            </a>
-            <br/>
-        {% endif %}
+          {% if post.category == "your story" %}
+          <a href="{{ post.url }}" class="nounderline">
+            <button type="button" class="btn btn-lg btn-primary btn-block shadow">
+              {{ post.title }}
+            </button>
+          </a>
+          <br/>
+          {% endif %}
         {% endfor %}
+      </div>
     </div>
-    </div>
-</section>
+  </section>
 
 <section id="team" class="container text-center">
     <h1 class="display-3 p-5 text-primary">Our Team</h1>
         <div id="world-map" style="width: 1170; height: 560px"></div>
         <script>
-            console.log("sup mate");
           $(function(){
             $('#world-map').vectorMap({
               map: 'world_mill_en',
