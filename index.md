@@ -71,14 +71,14 @@ layout: default
 </section>
 
 <section id="read" class="container">
-    <h1 class="display-3 p-5 text-primary text-center">Read Up</h1>
-    <!-- <div style="margin: 10px" class="text-center mt-4"> -->
+  <h1 class="display-3 p-5 text-primary text-center">Read Up</h1>
+  <!-- <div style="margin: 10px" class="text-center mt-4"> -->
     <div class="row">
-    <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
+      <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
         <h1 class="display-6 p-4 mb-5">Learn More</h1>
         {% for post in site.posts %}
           {% if post.category == "learn more" %}
-          <a href="{{ post.url }}">
+            <a href=" {{ post.url | relative_url }}">
             <button type="button" class="btn btn-lg btn-primary btn-block shadow">
               {{ post.title }}
             </button>
@@ -91,7 +91,7 @@ layout: default
         <h1 class="display-6 p-4 mb-5">Personal Stories</h1>
         {% for post in site.posts %}
           {% if post.category == "your story" %}
-          <a href="{{ post.url }}" class="nounderline">
+            <a href=" {{ post.url | relative_url }}">
             <button type="button" class="btn btn-lg btn-primary btn-block shadow">
               {{ post.title }}
             </button>

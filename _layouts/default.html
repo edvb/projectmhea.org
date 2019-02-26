@@ -8,39 +8,39 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="icon" type="image/png" href="/assets/favicon.png"/>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
     <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="/assets/css/bootstrap-minty.css" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <link href="/assets/css/jquery-jvectormap-2.0.3.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="{{ "/assets/css/bootstrap-minty.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "/assets/css/jquery-jvectormap-2.0.3.css" | relative_url }}" rel="stylesheet" type="text/css" media="screen"/>
   </head>
 
   <body>
 
     <nav class="container navbar scrolling-navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/index.html#">MHEA</a>
+      <a class="navbar-brand" href=" {{ "/index.html#" | relative_url }}">MHEA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="/index.html#motivation">Our Motivation</a>
-          <a class="nav-item nav-link" href="/index.html#solution">Our Solution</a>
-          <a class="nav-item nav-link" href="/index.html#read">Read Up</a>
-          <a class="nav-item nav-link" href="/index.html#team">Our Team</a>
-          <a class="nav-item nav-link" href="/index.html#contact">Contact</a>
+          <a class="nav-item nav-link" href=" {{ "/index.html#motivation" | relative_url }}">Our Motivation</a>
+          <a class="nav-item nav-link" href=" {{ "/index.html#solution" | relative_url }}">Our Solution</a>
+          <a class="nav-item nav-link" href=" {{ "/index.html#read" | relative_url }}">Read Up</a>
+          <a class="nav-item nav-link" href=" {{ "/index.html#team" | relative_url }}">Our Team</a>
+          <a class="nav-item nav-link" href=" {{ "/index.html#contact" | relative_url }}">Contact</a>
         </div>
       </div>
     </nav>
 
-    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="{{ "assets/js/jquery-3.3.1.min.js" | relative_url }}"></script>
 
     {{ content }}
 
-    <script type="text/javascript" src="/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/jquery-jvectormap-2.0.3.min.js"></script>
-    <script src="/assets/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script type="text/javascript" src={{ "assets/js/popper.min.js" | relative_url }}></script>
+    <script type="text/javascript" src={{"assets/js/bootstrap.min.js" | relative_url }}></script>
+    <script src={{"assets/js/jquery-jvectormap-2.0.3.min.js" | relative_url }}></script>
+    <script src={{"assets/js/jquery-jvectormap-world-mill-en.js" | relative_url }}></script>
   </body>
 </html>
