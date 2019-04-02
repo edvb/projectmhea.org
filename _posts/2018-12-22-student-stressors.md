@@ -2,7 +2,7 @@
 title: What Causes Stress in Students?
 subtitle: Pressure Points, Stressors, and How to Overcome Them
 author: Anushka Saxena
-category: "learn more"
+categories: [Learn More]
 ---
 
 The X generation of the 21st century is a world of youngsters working towards

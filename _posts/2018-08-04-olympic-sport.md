@@ -1,7 +1,7 @@
 ---
 title: This New Olympic Sport Needs to Go
 author: Brooke Thimmig
-category: "learn more"
+categories: [Learn More]
 ---
 
 Imagine this: after your grueling day of classes, you say to one of your

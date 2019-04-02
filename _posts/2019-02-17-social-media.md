@@ -1,7 +1,7 @@
 ---
 title: Social Media and Mental Health
 author: Priya Chawla
-category: "learn more"
+categories: [Learn More]
 ---
 
 Since the advent of digitalization, technology has taken its most personalized

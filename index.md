@@ -74,32 +74,26 @@ layout: default
   <h1 class="display-3 p-5 text-primary text-center">Read Up</h1>
   <!-- <div style="margin: 10px" class="text-center mt-4"> -->
     <div class="row">
-      <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
-        <h1 class="display-6 p-4 mb-5">Learn More</h1>
-        {% for post in site.posts %}
-          {% if post.category == "learn more" %}
-            <a href=" {{ post.url | relative_url }}">
-            <button type="button" class="btn btn-lg btn-primary btn-block shadow">
-              {{ post.title }}
-            </button>
-          </a>
-          <br/>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="col-md-6 col-sm-12 text-center align-items-stretch pb-5">
-        <h1 class="display-6 p-4 mb-5">Personal Stories</h1>
-        {% for post in site.posts %}
-          {% if post.category == "your story" %}
-            <a href=" {{ post.url | relative_url }}">
-            <button type="button" class="btn btn-lg btn-primary btn-block shadow">
-              {{ post.title }}
-            </button>
-          </a>
-          <br/>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% for cat in site.categories %}
+        <div class="col-md-4 col-sm-12 text-center align-items-stretch pb-5">
+          <h1 style="font-size: 37px" class="display-6 p-4 mb-5">{{ cat[0] }}</h1>
+          {% for post in cat[1] limit: 3 %}
+            <a href=" {{ post.url | relative_url }}" class="nounderline">
+              <button type="button" class="btn btn-lg btn-primary btn-block shadow">
+                {{ post.title }}
+              </button>
+            </a>
+            <br/>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <a href="{{ "posts.html" | relative_url }}" class="nounderline">
+        <button type="button" style="font-size: 32px;"  class="btn btn-lg btn-success btn-block shadow">
+          See more articles
+        </button>
+      </a>
     </div>
   </section>
 

@@ -1,7 +1,7 @@
 ---
 title: Drugs, Youth & the Staggering Indian Society
 author: Didhiti Ghosh
-category: "learn more"
+categories: [Learn More]
 ---
 
 Making up one-fifth of the population, 15-24 year-olds carry with them India's
