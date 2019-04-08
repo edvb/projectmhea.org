@@ -8,3 +8,5 @@ _site
 *.swo
 \#*\#
 .DS_Store
+
+tags

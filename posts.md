@@ -3,9 +3,9 @@ title: Read Up
 layout: default
 ---
 
-<header class="masthead bg-primary text-white" style="padding-top: 200px; height: 450px">
+<header class="masthead bg-primary text-white" style="padding-top: 140px; height: 450px">
   <div class="container">
-    <h1 class="display-3 text-white">{{ page.title }}</h1>
+    <h1 class="display-1 text-white">{{ page.title }}</h1>
   </div>
 </header>
 
