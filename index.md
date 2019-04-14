@@ -132,10 +132,8 @@ layout: default
           });
         </script>
     <div class="row justify-content-center align-items-center">
-      <a href="{{ "team.html" | relative_url }}" class="nounderline">
-        <button type="button" style="font-size: 32px;"  class="btn btn-lg btn-success btn-block shadow">
+      <a href="{{ "team.html" | relative_url }}" style="font-size: 32px;" class="col-md-6 btn btn-lg btn-success btn-block shadow nounderline">
           See our team members
-        </button>
       </a>
     </div>
 </section>
@@ -148,10 +146,8 @@ layout: default
         <div class="col-md-4 col-sm-12 text-center align-items-stretch pb-5">
           <h1 style="font-size: 37px" class="display-6 p-4 mb-5">{{ cat[0] }}</h1>
           {% for post in cat[1] limit: 3 %}
-            <a href=" {{ post.url | relative_url }}" class="nounderline">
-              <button type="button" class="btn btn-lg btn-primary btn-block shadow">
+            <a href=" {{ post.url | relative_url }}" class="btn btn-lg btn-primary btn-block shadow nounderline">
                 {{ post.title }}
-              </button>
             </a>
             <br/>
           {% endfor %}
@@ -159,10 +155,8 @@ layout: default
       {% endfor %}
     </div>
     <div class="row justify-content-center align-items-center">
-      <a href="{{ "posts.html" | relative_url }}" class="nounderline">
-        <button type="button" style="font-size: 32px;"  class="btn btn-lg btn-success btn-block shadow">
+      <a href="{{ "posts.html" | relative_url }}" style="font-size: 32px;" class="col-md-4 btn btn-lg btn-success btn-block shadow nounderline">
           See more articles
-        </button>
       </a>
     </div>
   </section>
