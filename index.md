@@ -70,33 +70,6 @@ layout: default
     </div>
 </section>
 
-<section id="read" class="container">
-  <h1 class="display-3 p-5 text-primary text-center">Read Up</h1>
-  <!-- <div style="margin: 10px" class="text-center mt-4"> -->
-    <div class="row">
-      {% for cat in site.categories %}
-        <div class="col-md-4 col-sm-12 text-center align-items-stretch pb-5">
-          <h1 style="font-size: 37px" class="display-6 p-4 mb-5">{{ cat[0] }}</h1>
-          {% for post in cat[1] limit: 3 %}
-            <a href=" {{ post.url | relative_url }}" class="nounderline">
-              <button type="button" class="btn btn-lg btn-primary btn-block shadow">
-                {{ post.title }}
-              </button>
-            </a>
-            <br/>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center align-items-center">
-      <a href="{{ "posts.html" | relative_url }}" class="nounderline">
-        <button type="button" style="font-size: 32px;"  class="btn btn-lg btn-success btn-block shadow">
-          See more articles
-        </button>
-      </a>
-    </div>
-  </section>
-
 <section id="team" class="container text-center">
     <h1 class="display-3 p-5 text-primary">Our Team</h1>
         <div id="world-map" style="width: 1170; height: 560px"></div>
@@ -166,6 +139,33 @@ layout: default
       </a>
     </div>
 </section>
+
+<section id="read" class="container">
+  <h1 class="display-3 p-5 text-primary text-center">Read Up</h1>
+  <!-- <div style="margin: 10px" class="text-center mt-4"> -->
+    <div class="row">
+      {% for cat in site.categories %}
+        <div class="col-md-4 col-sm-12 text-center align-items-stretch pb-5">
+          <h1 style="font-size: 37px" class="display-6 p-4 mb-5">{{ cat[0] }}</h1>
+          {% for post in cat[1] limit: 3 %}
+            <a href=" {{ post.url | relative_url }}" class="nounderline">
+              <button type="button" class="btn btn-lg btn-primary btn-block shadow">
+                {{ post.title }}
+              </button>
+            </a>
+            <br/>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <a href="{{ "posts.html" | relative_url }}" class="nounderline">
+        <button type="button" style="font-size: 32px;"  class="btn btn-lg btn-success btn-block shadow">
+          See more articles
+        </button>
+      </a>
+    </div>
+  </section>
 
 <section id="contact" class="text-center">
     <div class="container">
