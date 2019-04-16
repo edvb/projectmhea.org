@@ -2,7 +2,7 @@
 title: "Breaking the Myth: Unhealthy Habits Are Your Key to Success"
 author: Neha Rose Roy
 editor: Brooke Thimmig
-categorieies: [Learn More]
+categories: [Learn More]
 ---
 
 High school is a staple of adolescent nightmares and has become home to dark
