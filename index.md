@@ -34,7 +34,7 @@ layout: default
         <h1 class="display-3 pb-5 text-primary text-center">Our Motivation</h1>
         <div class="row">
             {% for person in site.data.people.quotes %}
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div class="box-testimony">
                         <blockquote>
                             <p>{{ person.quote }}</p>
