@@ -107,6 +107,7 @@ layout: default
                 {latLng: [34.5, 74.47], name: 'Srinagar'},
                 {latLng: [26.7588, 83.3697], name: 'Ghorakhpur'},
                 {latLng: [26.51, 80.57], name: 'Lucknow'},
+                {latLng: [9.97, 76.28], name: 'Kochi'},
               ],
               markerStyle: {
                 initial: {
@@ -133,7 +134,7 @@ layout: default
         </script>
     <div class="row justify-content-center align-items-center">
       <a href="{{ "team.html" | relative_url }}" style="font-size: 32px;" class="col-md-6 btn btn-lg btn-success btn-block shadow nounderline">
-          See our team members
+          Meet the team
       </a>
     </div>
 </section>
