@@ -21,7 +21,7 @@ layout: default
         <div class="col-md-{{ item.size | default: 3 }} col-sm-12 d-flex align-items-stretch pb-5">
             <div class="card mb-5">
             <img src="assets/img/people/{{ item.image }}">
-            <div class="card-body mt-5">
+            <div class="card-body p-2 pt-3 mt-5">
                 <h3 class="card-title">{{ item.name }}</h3>
                 <h5 class="card-subtitle mb-2">{{ item.position }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
