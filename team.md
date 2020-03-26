@@ -11,22 +11,22 @@ layout: default
 
 <section id="team" class="container text-center">
   {% include map.html %}
-  <div class="row">
+  <div class="row d-flex align-items-stretch">
     {% for item in site.data.people.people %}
       {% if item.title %}
         </div>
         <h1 class="display-4 p-5 mb-5">{{ item.title }}</h1>
         <div class="row">
       {% else %}
-        <div class="col-md-{{ item.size | default: 3 }} col-sm-12 d-flex align-items-stretch pb-5">
-            <div class="card mb-5">
+        <div class="col-md-{{ item.size | default: 3 }} col-sm-12 d-flex pb-5">
+          <div class="card mb-5 flex-fill">
             <img src="assets/img/people/{{ item.image }}">
             <div class="card-body p-2 pt-3 mt-5">
                 <h3 class="card-title">{{ item.name }}</h3>
                 <h5 class="card-subtitle mb-2">{{ item.position }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
             </div>
-            </div>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
