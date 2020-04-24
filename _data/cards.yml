@@ -4,7 +4,7 @@ intro:
     desc: 'The team behind MHEA, founded at the University of Washington, Seattle, includes undergraduates interested in studying a variety of academic disciplines. A passion for mental health advocacy is what unites us.'
   - title: 'What We Do'
     symbol: 'heart'
-    desc: 'MHEA is a student led organization that promotes awareness of mental health issues such as depression, anxiety, and stress among high school students in India. We aim to do this by conducting workshops that follow a peer to student model. Our volunteers will attend high schools and conduct discussions on these issues and equip attending students with strategies to identify symptoms, avert escalation of the issue, and help themselves or a friend in need.'
+    desc: 'MHEA is a student led organization that aims to spread awareness for and destigmatize various mental health issues that middle school and high school students experience across the globe. To do this, we conduct workshops that follow a peer to student model. Our team members and volunteers travel to high schools, present information, and lead discussions about mental health. We strive to equip students with strategies to identify symptoms, avert escalation of an issue, and help themselves or a friend in need.'
   - title: 'About Us'
     symbol: 'users'
     desc: 'In our endeavor to equip adolescents with a familiarity and understanding of mental illness, MHEA provides a platform for peers to lead one another towards a state of acceptance and recognition.'
@@ -14,7 +14,7 @@ intro:
 solution:
   - title: 'Workshops'
     symbol: 'chart-bar'
-    desc: 'Our trained volunteers conduct a series of peer-led discussion workshops for students in grades 9 - 12. Through these workshops, students get the opportunity to develop important skills that help them cope with their own personal struggles while supporting a friend that may also have issues with mental health.'
+    desc: 'Our trained team members and volunteers conduct a series of peer-led discussion workshops for middle school and high school students. Through these workshops, students get the opportunity to develop important skills that help them cope with their own personal struggles while supporting a friend that may also have issues with mental health.'
   - title: 'Platform'
     symbol: 'comments'
     desc: 'We provide a platform for peers to interact and lead one another towards awareness about mental health issues by establishing a MHEA club at every school we visit. This club will build a safe and support environment for students while helping to end the stigma surrounding mental health as the conversation about it is initiated and will continue long after we leave.'
