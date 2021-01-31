@@ -17,12 +17,12 @@ people:
     position: 'Founder'
     desc: 'Sairandri is a senior at the University of Washington, Seattle, majoring in biology and minoring in chemistry. She conducts research on cancer metabolism in neuroendocrine cancers in the Sullivan Lab at the Fred Hutchinson Cancer Research Center. She is a Peer Health Educator and conducts workshops, panels, and other programs to promote mental health awareness, healthy sexuality, and wellness on campus. Additionally, she also sings for an east-meets-west fusion music ensemble on campus.'
     image: 'sairandri.jpg'
-    size: '4'
+    size: '6'
   - name: 'Brooke Thimmig'
     position: 'Director of Content Development'
     desc: "Brooke is a dance major and pre-med student in her senior year at the University of Washington. Brooke currently works as an Emergency Medical Technician for American Medical Response running 911 and medical transfer calls on a Basic Life Support ambulance. At the UW, Brooke serves as a Dance Student Association officer, student representative on the Department of Dance’s Diversity Committee, and Peer Health Educator/ Student Resource for the Department of Dance. In her free time, Brooke teaches CPR to student groups on campus with the Nick of Time Foundation and has performed in the Department of Dance’s 2018, 2019, and 2020 Faculty Dance Concerts."
     image: 'brooke.jpg'
-    size: '4'
+    size: '6'
   - name: 'Aniruddh Saxena'
     position: 'Director of Strategy and Operations'
     desc: 'Aniruddh is a senior at UW who loves to hike (or sleep) when not stressing over school. He is currently majoring in Bioengineering and works in a lab that uses stem cells to find cures for neuromuscular disease'
@@ -37,11 +37,6 @@ people:
     position: 'Director of Outreach and Media'
     desc: "Serah Prakkat is currently a senior with an avid interest in human behavior and technology and intends to double major in Psychology and HCDE. In addition to MHEA, she is a part of another non-profit organization at UW named 'Kinspire' which aims to help educationally aspiring orphans in India receive the knowledge they deserve. She is also an ardent dog lover and has even started an Instagram account dedicated to her dog, Charlie."
     image: 'serah.jpeg'
-    size: '4'
-  - name: 'Giaan Nguyen'
-    position: 'Volunteer'
-    desc: "Giaan is a junior from Federal Way, Washington, studying microbiology at the University of Washington, Seattle. Her hobbies include collecting rubiks cubes and drawing. Mental health is something that is very important to her and she finds that MHEA allows many students to talk about that openly and freely.  She believes that MHEA has contributed to her and other students' growth"
-    image: 'giaan.png'
     size: '4'
   - title: 'Advisors'
   - name: 'Megan Kennedy'
