@@ -4,7 +4,7 @@ author: Cheryl Conklin
 categories: [Blog]
 ---
 
-[![Photo by Pexels](assets/img/posts/pandemic-smoothie.png)](https://www.pexels.com/search/smoothie)
+![[Photo by Pexels](https://www.pexels.com/search/smoothie)](/assets/img/posts/pandemic-smoothie.png)
 
 We all know that making [healthy choices][1] can be hard, especially in these stressful and uncertain
 times and especially for young people who are still learning healthy coping mechanisms. The
